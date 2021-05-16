@@ -1,0 +1,92 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:prettier/recommended"
+    ],
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "settings": {
+        "react": {
+            "createClass": "createReactClass",
+            "pragma": "React",
+            "version": "detect",
+            "flowVersion": "0.53"
+        },
+        "propWrapperFunctions": [
+            "forbidExtraProps",
+            { "property": "freeze", "object": "Object" },
+            { "property": "myFavoriteWrapper" }
+        ],
+        "linkComponents": [
+            "Hyperlink",
+            { "name": "Link", "linkAttribute": "to" }
+        ]
+    },
+    "rules": {
+        "curly": ["error"],
+        "default-case": ["error"],
+        "dot-notation": ["error"],
+        "eqeqeq": ["error", "always"],
+        "no-eval": ["error"],
+        "no-extra-bind": ["error"],
+        "no-floating-decimal": ["error"],
+        "no-implicit-coercion": ["warn"],
+        "no-invalid-this": ["error"],
+        "no-iterator": ["error"],
+        "no-labels": ["error"],
+        "no-loop-func": ["error"],
+        "no-multi-str": ["error"],
+        "no-new": ["error"],
+        "no-new-func": ["error"],
+        "no-new-wrappers": ["error"],
+        "no-param-reassign": ["error"],
+        "no-proto": ["error"],
+        "no-return-assign": ["error"],
+        "no-script-url": ["error"],
+        "no-self-compare": ["error"],
+        "no-sequences": ["error"],
+        "no-throw-literal": ["error"],
+        "no-unused-expressions": ["error"],
+        "no-useless-call": ["error"],
+        "no-void": ["off"],
+        "no-with": ["error"],
+        "radix": ["error"],
+
+        "camelcase": ["off"],
+        "linebreak-style": ["error", "unix"],
+        "no-array-constructor": ["error"],
+        "no-nested-ternary": ["off"],
+        "no-new-object": ["error"],
+        "no-ternary": ["off"],
+        "no-underscore-dangle": ["off"],
+        "one-var": ["error", "never"],
+        "quote-props": ["error", "as-needed"],
+        "wrap-regex": ["error"],
+
+        "no-var": ["error"],
+        "prefer-const": ["off"],
+
+        "prettier/prettier": [
+            "error",
+            {
+                "singleQuote": true,
+                "trailingComma": "es5"
+            }
+        ]
+    }
+}
