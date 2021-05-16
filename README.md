@@ -52,3 +52,9 @@ npm run build
 3. Create sub content components like components in [template](./src/contents/subframe/template) dir.
 4. Create `subContentList.js` and add sub content components to `subContentList` like [subContentList.js](./src/contents/subframe/template/subContentList.js).
 5. Edit sub content components as you like.
+
+## [addContent.sh](./addContent.sh)
+You can do the step 1, 3, and 4 automatically by using `addContent.sh`.
+```
+./addContent.sh <contentName>
+```
