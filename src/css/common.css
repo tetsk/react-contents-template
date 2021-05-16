@@ -1,0 +1,17 @@
+div.title {
+  text-align: center;
+  font-size: calc(10px + 2vw);
+}
+div.subtitle {
+  text-align: center;
+  font-size: calc(10px + 1vw);
+}
+
+div.dater {
+  text-align: center;
+  font-size: calc(10px + 8vw);
+}
+div.timer {
+  text-align: center;
+  font-size: calc(10px + 20vw);
+}
