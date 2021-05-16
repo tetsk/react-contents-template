@@ -50,3 +50,9 @@ npm run build
 3. [src/contents/subframe/template](./src/contents/subframe/template) ディレクトリ内のファイルを参考に、サブコンテンツのコンポーネントを作成します。
 4. [subContentList.js](./src/contents/subframe/template/subContentList.js) を参考に、新規の `subContentList.js` を作成し、その中の `subContentList` にサブコンテンツのコンポーネントを追加します。
 5. サブコンテンツのコンポーネントを自由に編集してください。
+
+## [addContent.sh](./addContent.sh)
+`addContent.sh` を使用することで、手順 1, 3, 4 を自動実行できます。
+```
+./addContent.sh <contentName>
+```
